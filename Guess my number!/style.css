@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(201, 71, 97);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: medium;
+  padding: 25px;
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 7px solid #eee;
+  justify-content: space-around;
+  margin-bottom: 2.5rem;
+}
+
+.number-show {
+  background: #eee;
+  color: #333;
+  font-size: 6rem;
+  width: 16rem;
+  padding: 2rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+main {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.left {
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  width: 50rem;
+  font-size: 2rem;
+}
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 20%;
+}
+
+.between {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0.2rem;
+  right: 2rem;
+}
+
+.btn-again {
+  position: absolute;
+  top: 0.2rem;
+  left: 2rem;
+  font-size: 30px;
+  font-family: inherit;
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  cursor: pointer;
+  background-color: #0a0a0a;
+  color: #eee;
+}
+
+.guess {
+  width: 20rem;
+  padding: 3rem;
+  text-align: center;
+  font-size: 3rem;
+  background: none;
+  border: 0.2rem solid white;
+  font-family: inherit;
+  color: inherit;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.btn-check {
+  border: none;
+  background-color: #0a0a0a;
+  color: #f8f4f4;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 1.5rem 2.5rem;
+  cursor: pointer;
+}
+
+.message {
+  margin-bottom: 6rem;
+}
+
+.label-score {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.btn-check:hover {
+  background-color: darkslategray;
+}
+.btn-again:hover {
+  background-color: darkslategray;
+}
